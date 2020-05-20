@@ -2,11 +2,11 @@
 
 # ¿Qué vamos a hacer?
 
-Por medio de Processing generar un programa donde el medio de trabajo principal sea una imagen central que permanecerá “oculta”. Partiendo de esta premisa la imagen será revelada por medio de funciones random que den movimiento a un círculo brillosos, con este, la imagen se mostrará por partes. Esto se hará en pure data. Aunado a esto, se implementará sonido al ritmo de los cambios de posición del círculo.
+Por medio de Processing generar un programa donde el medio de trabajo principal sea una imagen central que permanecerá “oculta”. Partiendo de esta premisa la imagen será revelada por medio de funciones random que den movimiento a un círculo brilloso, con este, la imagen se mostrará por partes. Esto se hará en pure data. Aunado a esto, se implementará sonido al ritmo de los cambios de posición del círculo. Si das clic sostenido en la pantalla de processing, la imagen cambiará por una diferente. Además, si el clic deja de sostenerse, regresará la imagen con la que se inició.
 
 # ¿Cómo lo vamos a hacer?
 
-Se creará una obra (fotografía o ilustración digital) y se le dará un tratamiento en los softwares correspondientes. Seguido de esto y a partir de los conocimientos de Processing se generará un programa que ajuste el brillo de una parte de la imagen calculando la distancia de cada píxel. haciendo un efecto “lámpara” que ilumina una sección de la imagen (haciendo uso de recursos como: frameRate, loadPixels, loadImage entre otros).  De igual forma, se implementarán las funciones metro, counter, select y random, estas nos servirán para mandar valores aleatorios a las variables “x” y “y”, que serán las encargadas de cambiar la posición del círculo que dejará ver la imagen. Así mismo se hará la conexión al programa Pure Data por medio de mensajes OSC.
+Se creará una obra (fotografía o ilustración digital) y se le dará un tratamiento en los softwares correspondientes. Seguido de esto y a partir de los conocimientos de Processing se generará un programa que ajuste el brillo de una parte de la imagen calculando la distancia de cada píxel. haciendo un efecto “lámpara” que ilumina una sección de la imagen (haciendo uso de recursos como: frameRate, loadPixels, loadImage entre otros).  De igual forma, se implementarán las funciones metro, counter, select y random, estas nos servirán para mandar valores aleatorios a las variables “x” y “y”, que serán las encargadas de cambiar la posición del círculo que dejará ver la imagen, además de generar los sonidos. Así mismo se hará la conexión de Pure Data con processing por medio de mensajes OSC. 
 
 # ¿Por qué puede ser considerado en el marco de las prácticas del arte digital? 
 
